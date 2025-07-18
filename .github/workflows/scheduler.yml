@@ -5,7 +5,7 @@ on:
     # This cron expression runs the workflow every day at 9 AM UTC
     # Adjust the time as needed for your timezone
     # For example, to run at 9 AM UTC, use '0 9 * * *'
-    - cron: '0 1 * * *'
+    - cron: '0 3 * * *'
   workflow_dispatch:
 
 env:
